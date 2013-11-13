@@ -208,12 +208,13 @@
 
 #bart .head .head-left4
 {
-    top: 61px;
+    top: 59px;
     left: 35px;
-    width: 17px;
-    height: 16px;
+    width: 59px;
+    height: 18px;
     background: #fbd800;
     border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
     -webkit-transform: rotate(-7deg);
     -ms-transform: rotate(-7deg);
     transform: rotate(-7deg);
@@ -221,12 +222,13 @@
 
 #bart .head .head-left5
 {
-    top: 76px;
+    top: 74px;
     left: 37px;
-    width: 20px;
+    width: 61px;
     height: 16px;
     background: #fbd800;
     border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
     -webkit-transform: rotate(-8deg);
     -ms-transform: rotate(-8deg);
     transform: rotate(-8deg);
@@ -360,7 +362,91 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: eyelid-blink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-duration: 2s;
+    -moz-animation-name: eyelid-blink;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    animation-duration: 2s;
+    animation-name: eyelid-blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+    @-webkit-keyframes eyelid-blink {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 55px;
+        left: 91px;
+        width: 10px;
+        height: 10px;
+      }
+
+      100% {
+        top: 55px;
+        left: 91px;
+        width: 6px;
+        height: 14px;
+      }
+    }
+    @-moz-keyframes eyelid-blink {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 55px;
+        left: 91px;
+        width: 10px;
+        height: 10px;
+      }
+
+      100% {
+        top: 55px;
+        left: 91px;
+        width: 6px;
+        height: 14px;
+      }
+    }
+    @keyframes eyelid-blink {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 55px;
+        left: 91px;
+        width: 10px;
+        height: 10px;
+      }
+
+      100% {
+        top: 55px;
+        left: 91px;
+        width: 6px;
+        height: 14px;
+      }
+    }
 
 #bart .head .right-eye
 {
@@ -373,7 +459,92 @@
     border-radius: 50%;
     background: #ffffff;
     border: 1px solid #110b00;
+    overflow: hidden;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: right-eye-blink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-duration: 2s;
+    -moz-animation-name: right-eye-blink;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    animation-duration: 2s;
+    animation-name: right-eye-blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+    @-webkit-keyframes right-eye-blink {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 60px;
+        left: 79px;
+        width: 27px;
+        height: 27px;
+      }
+
+      100% {
+        top: 73px;
+        left: 79px;
+        width: 20px;
+        height: 0;
+      }
+    }
+    @-moz-keyframes right-eye-blink {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 60px;
+        left: 79px;
+        width: 27px;
+        height: 27px;
+      }
+
+      100% {
+        top: 73px;
+        left: 79px;
+        width: 20px;
+        height: 0;
+      }
+    }
+    @keyframes right-eye-blink {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 60px;
+        left: 79px;
+        width: 27px;
+        height: 27px;
+      }
+
+      100% {
+        top: 73px;
+        left: 79px;
+        width: 20px;
+        height: 0;
+      }
+    }
 
 #bart .head .right-eye .right-eye-pupil
 {
@@ -385,7 +556,91 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #110b00;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: right-eye-pupil;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-duration: 2s;
+    -moz-animation-name: right-eye-pupil;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    animation-duration: 2s;
+    animation-name: right-eye-pupil;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+    @-webkit-keyframes right-eye-pupil {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 11px;
+        left: 8px;
+        width: 4px;
+        height: 4px;
+      }
+
+      100% {
+        top: 0px;
+        left: 8px;
+        width: 4px;
+        height: 4px;
+      }
+    }
+    @-moz-keyframes right-eye-pupil {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 11px;
+        left: 8px;
+        width: 4px;
+        height: 4px;
+      }
+
+      100% {
+        top: 0px;
+        left: 8px;
+        width: 4px;
+        height: 4px;
+      }
+    }
+    @keyframes right-eye-pupil {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 11px;
+        left: 8px;
+        width: 4px;
+        height: 4px;
+      }
+
+      100% {
+        top: 0px;
+        left: 8px;
+        width: 4px;
+        height: 4px;
+      }
+    }
 
 #bart .head .left-eye
 {
@@ -398,7 +653,92 @@
     border-radius: 50%;
     background: #ffffff;
     border: 1px solid #110b00;
+    overflow: hidden;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: left-eye-blink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-duration: 2s;
+    -moz-animation-name: left-eye-blink;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    animation-duration: 2s;
+    animation-name: left-eye-blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+    @-webkit-keyframes left-eye-blink {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 60px;
+        left: 52px;
+        width: 30px;
+        height: 30px;
+      }
+
+      100% {
+        top: 73px;
+        left: 52px;
+        width: 26px;
+        height: 0;
+      }
+    }
+    @-moz-keyframes left-eye-blink {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 60px;
+        left: 52px;
+        width: 30px;
+        height: 30px;
+      }
+
+      100% {
+        top: 73px;
+        left: 52px;
+        width: 26px;
+        height: 0;
+      }
+    }
+    @keyframes left-eye-blink {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 60px;
+        left: 52px;
+        width: 30px;
+        height: 30px;
+      }
+
+      100% {
+        top: 73px;
+        left: 52px;
+        width: 26px;
+        height: 0;
+      }
+    }
 
 #bart .head .left-eye .left-eye-pupil
 {
@@ -410,7 +750,91 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #110b00;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: left-eye-pupil;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-duration: 2s;
+    -moz-animation-name: left-eye-pupil;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    animation-duration: 2s;
+    animation-name: left-eye-pupil;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+    @-webkit-keyframes left-eye-pupil {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 13px;
+        left: 9px;
+        width: 4px;
+        height: 4px;
+      }
+
+      100% {
+        top: 0px;
+        left: 9px;
+        width: 4px;
+        height: 4px;
+      }
+    }
+    @-moz-keyframes left-eye-pupil {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 13px;
+        left: 9px;
+        width: 4px;
+        height: 4px;
+      }
+
+      100% {
+        top: 0px;
+        left: 9px;
+        width: 4px;
+        height: 4px;
+      }
+    }
+    @keyframes left-eye-pupil {
+      0% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {
+        top: 13px;
+        left: 9px;
+        width: 4px;
+        height: 4px;
+      }
+
+      100% {
+        top: 0px;
+        left: 9px;
+        width: 4px;
+        height: 4px;
+      }
+    }
 
 #bart .head .nose
 {
